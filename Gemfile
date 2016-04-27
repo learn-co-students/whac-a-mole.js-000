@@ -13,6 +13,6 @@ group :test do
   gem 'capybara'
   gem 'rack-test'
   gem 'launchy'
-  gem 'capybara-webkit'
+  #gem 'capybara-webkit'
   gem 'selenium-webdriver'
 end

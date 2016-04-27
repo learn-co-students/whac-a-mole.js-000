@@ -1,14 +1,11 @@
 $( document ).ready(function() {
   
+  $("#mole-num-1, #mole-num-2, #mole-num-3, #mole-num-4, #mole-num-5, #mole-num-6, #mole-num-7, #mole-num-8, #mole-num-9").click(function(){
+      selectMole();
+      // $(this).hide();
+      // incrementScore();
+    });
 
-  
-  // create your click handler here
-
-
-
-  // the below code calls on the play function found in game-functions.js
-  // the play function calls on selectMole, then waits a second, then calls
-  // on selectMole, then waits a second, you get the idea :)
   play();
 
 });
