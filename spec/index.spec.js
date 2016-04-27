@@ -48,6 +48,7 @@ describe('Game:', function() {
         lastPosition = position;
         if (i++ < 4) {
           selectMole();
+          debugger;
           setTimeout(storeNextPosition, 1000);
         } else {
           done();
